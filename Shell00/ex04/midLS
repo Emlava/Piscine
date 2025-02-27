@@ -1,0 +1,1 @@
+ls -p -t | awk '{printf "%s, ", $0} END {print ""}' | sed 's/, $//'
