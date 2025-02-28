@@ -6,13 +6,13 @@
 /*   By: elara-va <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/26 20:52:34 by elara-va          #+#    #+#             */
-/*   Updated: 2025/02/26 20:53:38 by elara-va         ###   ########.fr       */
+/*   Updated: 2025/02/27 12:15:31 by elara-va         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 # define FT_ABS_H
-
-
+# include <stdlib.h>
+# define ABS(Value) (abs(Value))
 
 #endif
